@@ -1,5 +1,5 @@
 {% set name = "qmsolve" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qmsolve-{{ version }}.tar.gz
-  sha256: 632f69af5ef2f3e5fc38c0f7a16cd3032c3a064de212078ba3e1ecc0799f966e
+  sha256: a4cb1c1b72b5282ed7b6724d288f9da025604c531e8fdd4cb15df712a40b1eb2
 
 build:
   number: 0
