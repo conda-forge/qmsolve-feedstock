@@ -1,5 +1,5 @@
 {% set name = "qmsolve" %}
-{% set version = "1.0.1" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qmsolve-{{ version }}.tar.gz
-  sha256: a4cb1c1b72b5282ed7b6724d288f9da025604c531e8fdd4cb15df712a40b1eb2
+  sha256: 2dd60cd6b086f7b301141666666d3f3b99c66f76bb35b74cdd84b08ddd6a3423
 
 build:
   number: 0
@@ -25,6 +25,7 @@ requirements:
     - mayavi
     - numpy
     - python >=3.7
+    - progressbar >=2.5
     - scipy
 
 test:
