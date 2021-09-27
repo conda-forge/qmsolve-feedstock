@@ -25,6 +25,7 @@ requirements:
     - mayavi
     - numpy
     - python >=3.7
+    - progressbar >=2.5
     - scipy
 
 test:
